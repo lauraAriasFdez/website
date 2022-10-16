@@ -7,7 +7,7 @@
   },
   "scripts": {
     "dev": "next dev -H 0.0.0.0",
-    "build": "nect build",
+    "build": "next build",
     "prettier": "prettier -write .",
     "lint": "next lint"
   },
