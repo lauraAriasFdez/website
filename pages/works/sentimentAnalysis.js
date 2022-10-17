@@ -4,12 +4,11 @@ import {
     Link,
     List,
     ListItem,
-    AspectRatio
   } from '@chakra-ui/react'
 
   import Image from 'next/image'
   import { ExternalLinkIcon } from '@chakra-ui/icons'
-  import { Title, WorkImage, Meta } from '../../components/work'
+  import { Title, Meta } from '../../components/work'
   import P from '../../components/paragraph'
   import Layout from '../../components/layout/article'
   
@@ -19,7 +18,7 @@ import {
     <Layout title="Sentiment Analysis Method Comparison">
       <Container>
         <Title>
-            Sentiment Analysis Method's Comparison <Badge>2020-2021</Badge>
+            Sentiment Analysis Method &apos;s Comparison <Badge>2020-2021</Badge>
         </Title>
         <P>
             There are two main components to sentiment analysis in natural language processing: feature extraction,

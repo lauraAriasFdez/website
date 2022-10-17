@@ -11,7 +11,6 @@ import Layout from '../components/layout/article'
 
 import researchThumbnail from '../public/images/cookie_prediction.png'
 import rescueDrone from '../public/images/rescueDrone.jpg'
-import thumbFourPainters from '../public/images/rescueDrone.jpg'
 import MNISTThmbnail from '../public/images/mnist.png'
 
 import sentimentAnalysis from "../public/images/sentiment-analysis.jpeg"
@@ -67,7 +66,7 @@ const Page = () =>{
                 </Heading>
                 <Paragraph>
 
-                Currently studying for my Bachelor's of Science in Computer Science from the University of Minnesota. (May 2023). 
+                Currently studying for my Bachelor&apos;s of Science in Computer Science from the University of Minnesota. (May 2023). 
                 I am a self-driven student with a passion for using artificial intelligence and data science to solve real world problems.
                 My experience includes being an intern at Goldman Sachs as a technology analyst, a teaching assistant,
                  and a research assistant focus on developing an app to help visually impaired individuals grocery shop.
@@ -84,11 +83,11 @@ const Page = () =>{
           
                 </Paragraph>
                 <Box align="center" my={4}>
-                <a target="_blank" href="https://docs.google.com/document/d/1eogUUZKdkkBdQSRHtFbyWoi23mrAGJFH/edit?usp=sharing&ouid=103847552264769017755&rtpof=true&sd=true" passHref scroll={false}>
+                <Link target="_blank" href="https://docs.google.com/document/d/1eogUUZKdkkBdQSRHtFbyWoi23mrAGJFH/edit?usp=sharing&ouid=103847552264769017755&rtpof=true&sd=true" passHref scroll={false}>
                     <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
                     My Resume
                     </Button>
-                </a>
+                </Link>
                 </Box>
 
             </Section>

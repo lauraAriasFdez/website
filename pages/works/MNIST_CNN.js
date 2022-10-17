@@ -1,20 +1,14 @@
 import {
     Container,
     Badge,
-    Link,
     List,
     ListItem,
-    AspectRatio
   } from '@chakra-ui/react'
 
-  import Image from 'next/image'
-  import { ExternalLinkIcon } from '@chakra-ui/icons'
-  import { Title, WorkImage, Meta } from '../../components/work'
+  import { Title, Meta } from '../../components/work'
   import P from '../../components/paragraph'
   import Layout from '../../components/layout/article'
   
-  import sentimentAnalysisResults from '../../public/images/sentiment-analysis-resutls.png'
-
   const Work = () => (
     <Layout title="MNIST-CNN">
       <Container>
